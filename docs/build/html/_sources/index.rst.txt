@@ -48,6 +48,9 @@ For further information on customization, code description, automation, etc, see
    legal
 
 
+Additional resources
+--------------------
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
