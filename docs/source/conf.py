@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 
 project = 'sphinx-doc-test'
-copyright = '2024, Moeed'
-author = 'Moeed'
+copyright = '2024, JordanJasuta'
+author = 'JordanJasuta'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
