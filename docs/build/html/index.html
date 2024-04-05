@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to sphinx-doc-test’s documentation! &mdash; sphinx-doc-test 1.0 documentation</title>
+  <title>Welcome to this documentation example! &mdash; sphinx-doc-test 1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
 
@@ -21,7 +21,8 @@
         <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Setup and Access" href="usage.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,12 +44,13 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to sphinx-doc-test’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Setup and Access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="legal.html">Legal</a></li>
 </ul>
-</div>
+
         </div>
       </div>
     </nav>
@@ -63,7 +65,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Welcome to sphinx-doc-test’s documentation!</li>
+      <li class="breadcrumb-item active">Welcome to this documentation example!</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -73,9 +75,44 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="welcome-to-sphinx-doc-test-s-documentation">
-<h1>Welcome to sphinx-doc-test’s documentation!<a class="headerlink" href="#welcome-to-sphinx-doc-test-s-documentation" title="Permalink to this heading"></a></h1>
+  <section id="welcome-to-this-documentation-example">
+<h1>Welcome to this documentation example!<a class="headerlink" href="#welcome-to-this-documentation-example" title="Permalink to this heading"></a></h1>
+</section>
+<section id="id1">
+<h1>Welcome to this documentation example!<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h1>
+<p>There is basically nothing here I just want to try it with zero consequences :)
+This is some <strong>bold text</strong>. This is some <em>italicized text</em>. Here’s a <a class="reference external" href="https://google.com/">link</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>And finally, this is a note. This note could tell us something like the project is under development.</p>
+</div>
+<p>Note also that this theme is not built in and must be installed using the following command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install sphinx-wagtail-theme
+$ pip install sphinx-rtd-theme
+</pre></div>
+</div>
+<p>And then updating the conf.py file to include:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extensions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;sphinx_wagtail_theme&quot;</span><span class="p">)</span>
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_wagtail_theme&#39;</span>
+</pre></div>
+</div>
+<p>This documentation currently contains no automation but can be updated manually at any time using the following convenience commands</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd docs
+$ make html
+</pre></div>
+</div>
+<p>For further information on customization, code description, automation, etc, see the <a class="reference external" href="https://www.sphinx-doc.org/en/master/index.html">sphinx documentation</a></p>
 <div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Setup and Access</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#access-for-low-code-users">Access for low code users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#setup-for-high-code-users">Setup for high code users</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="legal.html">Legal</a></li>
+</ul>
 </div>
 </section>
 <section id="indices-and-tables">
@@ -90,12 +127,14 @@
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-right" title="Setup and Access" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, Moeed.</p>
+    <p>&#169; Copyright 2024, JordanJasuta.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

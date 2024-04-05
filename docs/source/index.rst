@@ -6,6 +6,9 @@
 Welcome to this documentation example!
 ========================================
 
+Welcome to this documentation example!
+========================================
+
 There is basically nothing here I just want to try it with zero consequences :)
 This is some **bold text**. This is some *italicized text*. Here's a `link <https://google.com/>`_.
 
