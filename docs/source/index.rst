@@ -43,9 +43,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   :hidden:
+   :maxdepth: 
 
    usage
    examples
