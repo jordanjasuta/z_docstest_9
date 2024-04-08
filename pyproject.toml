@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "z_doctest_9"
+version = "0.1.0"
+description = "Just testing Sphinx autodoc-ing, updating and dependencies with poetry"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/jordanjasuta/z_docstest_9"
+
+authors = ["JordanJasuta"]
+
+
+[tool.poetry.dependencies]
+# Required Dependences
+python = ">=3.7, <3.11"
+sphinx = ">=4.2.0"
+sphinx-wagtail-theme = ">=6.0.0"
+
+# Optional Dependencies
+sphinx-rtd-theme = { version = ">=0.5.2", optional = true }
+
+
+[tool.poetry.extras]
+# All Optional Dependencies
+all = []
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+
+[tool.black]
+line-length=120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
