@@ -43,7 +43,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 
+   :maxdepth: 2
 
    usage
    examples
