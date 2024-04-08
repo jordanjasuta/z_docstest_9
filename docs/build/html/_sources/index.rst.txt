@@ -39,9 +39,13 @@ This documentation currently contains no automation but can be updated manually 
 For further information on customization, code description, automation, etc, see the `sphinx documentation <https://www.sphinx-doc.org/en/master/index.html>`_
 
 
+Contents
+--------
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
    usage
    examples
