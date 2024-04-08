@@ -14,12 +14,21 @@ This is some **bold text**. This is some *italicized text*. Here's a `link <http
   And finally, this is a note. This note could tell us something like the project is under development.
 
 
-Note also that this theme is not built in and must be installed using the following command:
+This project runs in a conda virtual env using the `environment.yml` file in the root directory.
+
+| # To activate this environment, use
+| #
+| #     $ conda activate test-env
+| #
+| # To deactivate an active environment, use
+| #
+| #     $ conda deactivate
+
+Note also that this theme is not built-in and must be installed using the following commands:
 
 .. code-block::
 
      $ pip install sphinx-wagtail-theme
-     $ pip install sphinx-rtd-theme
 
 And then updating the conf.py file to include:
 
