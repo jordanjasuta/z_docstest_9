@@ -13,7 +13,7 @@ authors = ["JordanJasuta"]
 # Required Dependences
 python = ">=3.7, <3.11"
 sphinx = ">=4.2.0"
-sphinx-wagtail-theme = ">=6.0.0"
+furo = "*"
 
 # Optional Dependencies
 sphinx-rtd-theme = { version = ">=0.5.2", optional = true }
