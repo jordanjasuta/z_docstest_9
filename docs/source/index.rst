@@ -11,7 +11,7 @@ This is some **bold text**. This is some *italicized text*. Here's a `link <http
 
 .. Note::
 
-  And finally, this is a note. This note could tell us something like the project is under development.
+  This is a note. This note could tell us something like the project is under development.
 
 
 This project runs in a conda virtual env using the `environment.yml` file in the root directory.
